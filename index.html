@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShoeBrand – Premium Shoes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ShoeBrand</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Step Into Premium Comfort</h2>
+    <p>Discover our latest collection of stylish and durable shoes.</p>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <img src="images/shoe1.jpg" alt="Shoe 1">
+      <h3>Sport Runner</h3>
+      <p>$120</p>
+      <button onclick="addToCart('Sport Runner',120)">Add to Cart</button>
+      <a href="product1.html" class="btn">Buy Now</a>
+    </div>
+    <div class="product">
+      <img src="images/shoe2.jpg" alt="Shoe 2">
+      <h3>Classic Leather</h3>
+      <p>$150</p>
+      <button onclick="addToCart('Classic Leather',150)">Add to Cart</button>
+      <a href="product1.html" class="btn">Buy Now</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="contact">
+      <h4>Contact Us</h4>
+      <p>Email: support@shoebrand.com</p>
+      <p>Phone: +91-98765-43210</p>
+    </div>
+    <div class="support">
+      <h4>Support</h4>
+      <p>For queries or returns, visit our <a href="#">Support Page</a>.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
